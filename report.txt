@@ -1,0 +1,93 @@
+# Smart Route Planner
+
+## 1. Introduction
+
+The Smart Route Planner is a system designed to calculate the shortest path between multiple cities using Dijkstra’s Algorithm. It allows users to input a graph in the form of a distance matrix and computes the optimal route efficiently.
+
+---
+
+## 2. Objective
+
+The objective of this project is to demonstrate how graph-based problems can be solved using algorithms taught in class, specifically a Greedy algorithm.
+
+---
+
+## 3. Algorithm Used
+
+This project uses **Dijkstra’s Algorithm**, which is a **Greedy algorithm**.
+
+* It selects the nearest unvisited node at each step
+* Updates shortest distances dynamically
+* Ensures the shortest path from source to all nodes
+
+---
+
+## 4. System Design
+
+### Input:
+
+* Number of cities
+* Distance matrix (user input)
+
+### Process:
+
+* Apply Dijkstra’s Algorithm on the graph
+
+### Output:
+
+* Shortest distance from source to all cities
+* Path taken for each route
+
+---
+
+## 5. Technologies Used
+
+* HTML, CSS (User Interface)
+* JavaScript (Frontend logic)
+* Node.js with Express (Backend server)
+
+---
+
+## 6. Features
+
+* Interactive GUI for graph input
+* Dynamic distance matrix generation
+* Displays shortest paths and distances
+* Visual representation of routes
+
+---
+
+## 7. Project Structure
+
+```
+smart-route-planner/
+│
+├── public/        → Frontend files
+├── src/           → Backend server
+├── package.json   → Dependencies
+├── original-code.c → Reference implementation
+├── README.md      → Project report
+```
+
+---
+
+## 8. How to Run the Project
+
+1. Install Node.js
+
+2. Open terminal in project folder
+
+3. Run:
+   npm install
+   npm start
+
+4. Open browser:
+   http://localhost:3000
+
+---
+
+## 9. Conclusion
+
+This project successfully demonstrates the use of a Greedy algorithm (Dijkstra’s Algorithm) in solving real-world routing problems. It shows how algorithms can be integrated into a working system with a graphical interface.
+
+---
